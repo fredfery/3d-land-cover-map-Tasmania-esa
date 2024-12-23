@@ -169,9 +169,9 @@ theme_for_the_win <- function(){
             panel.grid.major = element_blank(),
             panel.grid.minor = element_blank(),
             plot.background = element_rect(fill = "white", color = NA),
-            plot.title = element_text(size = 20, color = "grey10", hjust = .5, vjust = -2.5),  # Adjusted vjust
-            plot.caption = element_text(size = 8, color = "grey10", hjust = .5, vjust = 2),
-            plot.margin = unit(c(t = 0, r = 0, l = 0, b = 0), "lines")
+            plot.title = element_text(size = 20, color = "grey10", hjust = .5, vjust = 3),
+            plot.caption = element_text(size = 8, color = "grey10", hjust = .5, vjust = 4),
+            plot.margin = unit(c(t = 2, r = 0, l = 0, b = 1), "lines")  # Adjusted top margin to move the map up
         )
 }
 
@@ -229,11 +229,6 @@ lc_map <- ggplot() +
             barwidth = unit(.5, "cm"),
             barheight = unit(.5, "cm")
         )
-    ) +
-    annotation_scale(
-        location = "bl", width = .15,
-        pad_x = unit(1.5, "cm"),
-        pad_y = unit(.5, "cm")
     ) +
     coord_sf(crs = proj) +
     labs(
