@@ -1,9 +1,6 @@
+# 2D and 3D land cover map TASMANIA - ESA Global Land Cover Dataset
 
-
-
-# 2D and 3D land cover map TASMANIA - ESA
-
- Original video and tutorial from Milos https://www.youtube.com/watch?v=y_Kzg24Ciuo
+ Original video and tutorial from Milos https://www.youtube.com/watch?v=EuLip_J0x3I and https://github.com/milos-agathon/3d-land-cover-esa
 
 
   ![alt text](https://github.com/fredfery/3d-land-cover-map-Tasmania-esa/blob/main/tasmania-landcover-2d.png)
